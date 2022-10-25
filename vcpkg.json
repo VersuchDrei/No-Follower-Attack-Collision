@@ -1,12 +1,22 @@
 {
-  "name": "exampleproject",
-  "version-string": "1.0.0",
-  "description": "An example project built using CommonLibSSE",
-  "homepage": "https://github.com/Ryan-rsm-McKenzie/ExamplePlugin-CommonLibSSE",
-  "license": "MIT",
-  "dependencies": [
-    "span-lite",
-    "spdlog",
-    "xbyak"
-  ]
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "loki-nofollowerattackcollision",
+    "version-string": "2.1.0",
+    "port-version": 0,
+    "description": "",
+    "homepage": "",
+    "license": "MIT",
+    "features": {
+        "plugin": {
+            "description": "Build the SKSE plugin.",
+            "dependencies": [
+              "articuno",
+              "commonlibsse-ng",
+              "simpleini"
+            ]
+        }
+    },
+    "default-features": [
+        "plugin"
+    ]
 }
